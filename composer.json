@@ -1,0 +1,24 @@
+{
+    "name": "jumaris/terjemah",
+    "description": "menerjemahkan bahasa",
+    "keywords": ["jumaris","terjemah","bahasa"],
+    "license": "MIT",
+    "homepage": "http://github.com/jumaris/terjemah",
+    "authors": [
+        {
+            "name": "jumaris",
+            "email": "Jumaris88shj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8",
+        "guzzlehttp/guzzle": "~6.0|~7.0",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Terjemah\\": "src/"
+        }
+    }
+}
